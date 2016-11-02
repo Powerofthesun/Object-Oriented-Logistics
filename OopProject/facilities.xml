@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <FacilityCatalog>
+        <Facility Location="Seattle, WA">
+            <RatePerDay>8</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="ABC123">45</ItemQuantity>
+                <ItemQuantity id="JBL3100">52</ItemQuantity>
+                <ItemQuantity id="PL132-C">4</ItemQuantity>
+                <ItemQuantity id="PU238">60</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Fargo, ND">1426</Distance>
+                <Distance Location="San Francisco, CA">808</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="San Francisco, CA">
+            <RatePerDay>12</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="RL123A">40</ItemQuantity>
+                <ItemQuantity id="XLK200B">8</ItemQuantity>
+                <ItemQuantity id="SR71-D">81</ItemQuantity>
+                <ItemQuantity id="CT1928">46</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Seattle, WA">808</Distance>
+                <Distance Location="Denver, CO">1249</Distance>
+                <Distance Location="Los Angeles, CA">382</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Los Angeles, CA">
+            <RatePerDay>10</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="RX100-3">57</ItemQuantity>
+                <ItemQuantity id="JBL3100">60</ItemQuantity>
+                <ItemQuantity id="E241i">44</ItemQuantity>
+                <ItemQuantity id="XTP202">32</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="San Francisco, CA">382</Distance>
+                <Distance Location="Phoenix, AZ">372</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Phoenix, AZ">
+            <RatePerDay>8</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="RX100-3">18</ItemQuantity>
+                <ItemQuantity id="SR71-D">55</ItemQuantity>
+                <ItemQuantity id="SN-241-L">22</ItemQuantity>
+                <ItemQuantity id="ZTF109">54</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Los Angeles, CA">372</Distance>
+                <Distance Location="Santa Fe, NM">480</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Denver, CO">
+            <RatePerDay>10</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="ABC123">80</ItemQuantity>
+                <ItemQuantity id="RL123A">110</ItemQuantity>
+                <ItemQuantity id="RTF110">100</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="San Francisco, CA">1249</Distance>
+                <Distance Location="Santa Fe, NM">392</Distance>
+                <Distance Location="Fargo, ND">889</Distance>
+                <Distance Location="St. Louis, MO">1032</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Santa Fe, NM">
+            <RatePerDay>8</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="RX100-3">144</ItemQuantity>
+                <ItemQuantity id="CR2031">280</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Phoenix, AZ">480</Distance>
+                <Distance Location="Denver, CO">392</Distance>
+                <Distance Location="St. Louis, MO">1032</Distance>
+                <Distance Location="Austin, TX">688</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Fargo, ND">
+            <RatePerDay>8</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="ABC123">25</ItemQuantity>
+                <ItemQuantity id="JBL3100">32</ItemQuantity>
+                <ItemQuantity id="XLK200B">82</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Seattle, WA">1426</Distance>
+                <Distance Location="Denver, CO">889</Distance>
+                <Distance Location="Chicago, IL">643</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Austin, TX">
+            <RatePerDay>10</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="RL123A">66</ItemQuantity>
+                <ItemQuantity id="RX100-3">35</ItemQuantity>
+                <ItemQuantity id="SN-241-L">35</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Santa Fe, NM">688</Distance>
+                <Distance Location="St. Louis, MO">825</Distance>
+                <Distance Location="New Orleans, LA">512</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="St. Louis, MO">
+            <RatePerDay>12</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="ABC123">70</ItemQuantity>
+                <ItemQuantity id="SR71-D">45</ItemQuantity>
+                <ItemQuantity id="PU238">82</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Chicago, IL">297</Distance>
+                <Distance Location="Nashville, TN">309</Distance>
+                <Distance Location="Austin, TX">825</Distance>
+                <Distance Location="Santa Fe, NM">1032</Distance>
+                <Distance Location="Denver, CO">851</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Chicago, IL">
+            <RatePerDay>10</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="ABC123">60</ItemQuantity>
+                <ItemQuantity id="E241i">64</ItemQuantity>
+                <ItemQuantity id="CT1928">20</ItemQuantity>
+                <ItemQuantity id="RTF110">110</ItemQuantity>
+                <ItemQuantity id="XTP202">20</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Fargo, ND">643</Distance>
+                <Distance Location="St. Louis, MO">297</Distance>
+                <Distance Location="New York City, NY">790</Distance>
+                <Distance Location="Detroit, MI">282</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="New Orleans, LA">
+            <RatePerDay>8</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="MM35P">100</ItemQuantity>
+                <ItemQuantity id="PU238">49</ItemQuantity>
+                <ItemQuantity id="ZTF109">120</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Austin, TX">512</Distance>
+                <Distance Location="Nashville, TN">532</Distance>
+                <Distance Location="Atlanta, GA">469</Distance>
+                <Distance Location="Miami, FL">864</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Nashville, TN">
+            <RatePerDay>8</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="RX100-3">78</ItemQuantity>
+                <ItemQuantity id="XLK200B">28</ItemQuantity>
+                <ItemQuantity id="CR2032">366</ItemQuantity>
+                <ItemQuantity id="SN-241-L">16</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="St. Louis, MO">309</Distance>
+                <Distance Location="New Orleans, LA">1426</Distance>
+                <Distance Location="Norfolk, VA">706</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Detroit, MI">
+            <RatePerDay>10</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="JBL3100">117</ItemQuantity>
+                <ItemQuantity id="SR71-D">8</ItemQuantity>
+                <ItemQuantity id="CT1928">72</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Chicago, IL">282</Distance>
+                <Distance Location="New York City, NY">614</Distance>
+                <Distance Location="Boston, MA">719</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Boston, MA">
+            <RatePerDay>10</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="MM35">47</ItemQuantity>
+                <ItemQuantity id="PL123-C">3</ItemQuantity>
+                <ItemQuantity id="CT1928">65</ItemQuantity>
+                
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Detroit, MI">719</Distance>
+                <Distance Location="New York City, NY">215</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="New York City, NY">
+            <RatePerDay>14</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="RL123A">12</ItemQuantity>
+                <ItemQuantity id="CR2032">132</ItemQuantity>
+                <ItemQuantity id="E241i">72</ItemQuantity>
+                <ItemQuantity id="ZTF109">28</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Boston, MA">215</Distance>
+                <Distance Location="Detroit, MI">614</Distance>
+                <Distance Location="Chicago, IL">790</Distance>
+                <Distance Location="Norfolk, VA">363</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Norfolk, VA">
+            <RatePerDay>10</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="MM35P">66</ItemQuantity>
+                <ItemQuantity id="RL123A">50</ItemQuantity>
+                <ItemQuantity id="XLK200B">14</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="New York City, NY">363</Distance>
+                <Distance Location="Nashville, TN">706</Distance>
+                <Distance Location="Atlanta, GA">566</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Atlanta, GA">
+            <RatePerDay>10</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="RX100-3">90</ItemQuantity>
+                <ItemQuantity id="E241i">32</ItemQuantity>
+                <ItemQuantity id="PU238">120</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Norfolk, VA">566</Distance>
+                <Distance Location="New Orleans, LA">469</Distance>
+                <Distance Location="Miami, FL">663</Distance>
+             </CityLinks>
+         </Facility>
+         
+         <Facility Location="Miami, FL">
+            <RatePerDay>8</RatePerDay>
+            <Cost>300</Cost>
+            <Inventory>
+                <ItemQuantity id="MM35P">16</ItemQuantity>
+                <ItemQuantity id="JBL3100">44</ItemQuantity>
+                <ItemQuantity id="SR71-D">15</ItemQuantity>
+                <ItemQuantity id="SN-241-L">28</ItemQuantity>
+                <ItemQuantity id="XTP202">88</ItemQuantity>
+             </Inventory>
+             <CityLinks>
+                <Distance Location="Atlanta, GA">663</Distance>
+                <Distance Location="New Orleans, LA">864</Distance>
+             </CityLinks>
+         </Facility>
+    </FacilityCatalog>
+         

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrderList>
+
+    <Order id = "TO-001">
+        <StartTime>1</StartTime>
+        <Destination>Miami, FL</Destination>
+        <OrderItems>
+            <Item name="ABC123">180</Item>
+            <Item name ="CR2032">320</Item>
+        </OrderItems>
+    </Order>
+    
+    <Order id = "TO-002">
+        <StartTime>1</StartTime>
+        <Destination>Boston, MA</Destination>
+        <OrderItems>
+            <Item name="PL132-C">5</Item>
+            <Item name ="XLK200B">120</Item>
+        </OrderItems>
+    </Order>
+    
+    <Order id = "TO-003">
+        <StartTime>4</StartTime>
+        <Destination>Seattle, WA</Destination>
+        <OrderItems>
+            <Item name="XTP202">100</Item>
+            <Item name ="E241i">105</Item>
+        </OrderItems>
+    </Order>
+    
+    <Order id = "TO-004">
+        <StartTime>10</StartTime>
+        <Destination>Phoenix, AZ</Destination>
+        <OrderItems>
+            <Item name="CR2032">200</Item>
+            <Item name ="SR71-D">85</Item>
+        </OrderItems>
+    </Order>
+    
+    <Order id = "TO-005">
+        <StartTime>7</StartTime>
+        <Destination>Chicago, IL</Destination>
+        <OrderItems>
+            <Item name="XLK200B">120</Item>
+            <Item name ="RX100-3">200</Item>
+        </OrderItems>
+    </Order>
+    
+    <Order id = "TO-006">
+        <StartTime>8</StartTime>
+        <Destination>Denver, CO</Destination>
+        <OrderItems>
+            <Item name="CT1928">120</Item>
+        </OrderItems>
+    </Order>
+    
+</OrderList>
